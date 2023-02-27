@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.geometry.Insets?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.assignment1.PrimaryController">
+   <children>
+      <Button fx:id="russia" layoutX="151.0" layoutY="365.0" mnemonicParsing="false" onAction="#Rassia" text="Russia" />
+      <Button fx:id="germany" layoutX="255.0" layoutY="365.0" mnemonicParsing="false" onAction="#Germany" text="Germany" />
+      <Button fx:id="bostswana" layoutX="361.0" layoutY="365.0" mnemonicParsing="false" onAction="#Botswana" text="Botswana" />
+      <Button fx:id="lesotho" layoutX="472.0" layoutY="365.0" mnemonicParsing="false" onAction="#Lesotho" text="Lesotho" />
+      <Button fx:id="clear" layoutX="55.0" layoutY="365.0" mnemonicParsing="false" onAction="#Default" text="Clear" />
+      <Label fx:id="Country" layoutX="255.0" layoutY="7.0" text="CANADA">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="200.0" layoutX="194.0" layoutY="92.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1e1e" height="200.0" layoutX="394.0" layoutY="92.0" stroke="BLACK" strokeType="INSIDE" width="82.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1e1e" height="200.0" layoutX="112.0" layoutY="92.0" stroke="BLACK" strokeType="INSIDE" width="82.0" />
+   </children>
+</AnchorPane>

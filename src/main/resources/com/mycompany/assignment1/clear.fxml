@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.geometry.Insets?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #0b11;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.assignment1.ClearController">
+   <children>
+      <Button fx:id="canada" layoutX="58.0" layoutY="365.0" mnemonicParsing="false" onAction="#Canada" text="canada" />
+      <Button fx:id="russia" layoutX="160.0" layoutY="365.0" mnemonicParsing="false" onAction="#Rassia" text="Russia" />
+      <Button fx:id="germany" layoutX="255.0" layoutY="365.0" mnemonicParsing="false" onAction="#Germany" text="Germany" />
+      <Button fx:id="bostswana" layoutX="361.0" layoutY="365.0" mnemonicParsing="false" onAction="#Botswana" text="Botswana" />
+      <Button fx:id="lesotho" layoutX="472.0" layoutY="365.0" mnemonicParsing="false" onAction="#Lesotho" text="Lesotho" />
+      <Label fx:id="Country" layoutX="211.0" layoutY="14.0" text="Main Menu">
+          <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="91.0" layoutY="200.0" text="Use the buttons to view the flag for each country">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
